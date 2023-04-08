@@ -1,3 +1,5 @@
+import './footer.scss';
+
 function Footer() {
   return (
     <div>

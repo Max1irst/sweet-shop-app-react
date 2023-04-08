@@ -1,7 +1,6 @@
 .header {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -11,6 +10,8 @@
   width: 100%;
   .search {
     width: 33.3%;
+    display: flex;
+    align-items: center;
     input {
       box-sizing: border-box;
       border: 1px solid #d7d7d7;
@@ -22,6 +23,23 @@
       width: 100%;
       transition: all ease-in-out 0.2s;
     }
+    .search-btn {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 2px;
+      background: none;
+      height: 16px;
+      border: none;
+      position: relative;
+      width: 16px;
+      right: 35px;
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
   }
   .menu {
     display: flex;
@@ -29,10 +47,15 @@
     justify-content: space-evenly;
     width: 33.3%;
     a {
-      font-family: 'Maven Pro', sans-serif;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 5px;
       text-decoration: none;
       transition: all ease-in-out 0.3s;
       color: #111;
+      font-size: 14px;
+      font-weight: 700;
     }
   }
 }
@@ -57,7 +80,7 @@
       display: inline-block;
       font-family: 'gambado-sans', sans-serif;
       color: #fff;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 900;
       text-align: center;
       width: 100%;
