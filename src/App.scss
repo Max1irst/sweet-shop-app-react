@@ -11,10 +11,8 @@ body {
     font-weight: bold;
     src: url('../public/fonts/Metropolitano-Black/Metropolitano-Black.ttf');
   }
-}
-.App {
-  text-align: center;
-  h1 {
-    color: rgb(4, 250, 250);
+  a {
+    color: #111;
+    text-decoration: none;
   }
 }
