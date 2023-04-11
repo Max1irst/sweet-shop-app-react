@@ -1,11 +1,11 @@
 import './reviews-block.scss';
 import profileImg from '../../images/img-logo.jpg';
 import star from '../../images/star.png';
-
+import ReviewItem from './review-item';
 function ReviewsBlock() {
   return (
     <div className="reviews-block">
-      <div>
+      <div className="profile-block">
         <div className="profile">
           <div className="profile-img">
             <img src={profileImg} alt="profile-img" />
@@ -24,12 +24,14 @@ function ReviewsBlock() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="profile-links">
           <a href="http://">See all reviews</a>
           <a href="http://">Write a review</a>
         </div>
       </div>
-      <div className="slider"></div>
+      <div className="slider">
+        <ReviewItem />
+      </div>
     </div>
   );
 }

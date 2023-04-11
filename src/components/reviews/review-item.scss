@@ -1,0 +1,19 @@
+.review-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fff;
+  width: 344px;
+  height: 196px;
+  border-radius: 20px;
+  padding: 15px;
+  .user-info {
+    display: flex;
+    flex-direction: row;
+  }
+  .review {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
