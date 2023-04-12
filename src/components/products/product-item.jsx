@@ -1,0 +1,24 @@
+import './product-item.scss';
+import star from '../../images/star.png';
+function ProductItem(props) {
+  return (
+    <div className="product-item">
+      <a href="./#">
+        <img src={props.productImg} alt="product" />
+        <h2>{props.productName}</h2>
+        <span>$ {props.productPrice}</span>
+      </a>
+      <div className="rating">
+        <img src={star} alt="star" />
+        <img src={star} alt="star" />
+        <img src={star} alt="star" />
+        <img src={star} alt="star" />
+        <img src={star} alt="star" />
+        <br />
+        <span>({props.reviews} reviews)</span>
+      </div>
+    </div>
+  );
+}
+
+export default ProductItem;

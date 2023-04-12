@@ -29,7 +29,7 @@ function ReviewsBlock() {
           <a href="http://">Write a review</a>
         </div>
       </div>
-      <div className="slider">
+      <div className="reviews-list">
         <ReviewItem />
       </div>
     </div>
