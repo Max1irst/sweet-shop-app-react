@@ -17,6 +17,10 @@ function ProductItem(props) {
         <br />
         <span>({props.reviews} reviews)</span>
       </div>
+      <a href="./#" className="product-btn">
+        Add to basket
+      </a>
+      <p>{props.inStock} in stock</p>
     </div>
   );
 }

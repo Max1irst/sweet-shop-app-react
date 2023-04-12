@@ -12,6 +12,28 @@ function ProductsBlock() {
           productName="Jacks Milk Chocolate Mini Eggs 87g"
           productPrice="0.89"
           reviews="2"
+          inStock="77"
+        />
+        <ProductItem
+          productImg={product1}
+          productName="Bonds Bunny Jelly Beans Tube 80g"
+          productPrice="1.00"
+          reviews="2"
+          inStock="77"
+        />
+        <ProductItem
+          productImg={product1}
+          productName="Jacks Milk Chocolate Mini Eggs 87g"
+          productPrice="0.89"
+          reviews="2"
+          inStock="77"
+        />
+        <ProductItem
+          productImg={product1}
+          productName="Jacks Milk Chocolate Mini Eggs 87g"
+          productPrice="0.89"
+          reviews="2"
+          inStock="77"
         />
       </div>
     </div>
