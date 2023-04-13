@@ -19,21 +19,21 @@ function ProductsBlock() {
           productName="Bonds Bunny Jelly Beans Tube 80g"
           productPrice="1.00"
           reviews="2"
-          inStock="77"
+          inStock="2"
         />
         <ProductItem
           productImg={product1}
-          productName="Jacks Milk Chocolate Mini Eggs 87g"
-          productPrice="0.89"
-          reviews="2"
-          inStock="77"
+          productName="Bonds Sherbet Carrots 8 Pack"
+          productPrice="0.75"
+          reviews="0"
+          inStock="117"
         />
         <ProductItem
           productImg={product1}
-          productName="Jacks Milk Chocolate Mini Eggs 87g"
-          productPrice="0.89"
-          reviews="2"
-          inStock="77"
+          productName="Haribo Jelly Bunnies 160g"
+          productPrice="1.00"
+          reviews="1"
+          inStock="90"
         />
       </div>
     </div>
