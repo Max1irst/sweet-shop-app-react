@@ -8,12 +8,51 @@
   border-radius: 20px;
   padding: 15px;
   .user-info {
+    text-align: center;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    .user-img {
+      display: flex;
+      align-items: center;
+      margin-right: 15px;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+      }
+    }
+    strong {
+      font-size: 15px;
+      overflow: hidden;
+      padding-right: 25px;
+      color: #000000;
+      margin-bottom: 2px;
+    }
+    .user-name {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      p {
+        color: #000000;
+        opacity: 0.5;
+        font-size: 12px;
+      }
+    }
   }
   .review {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    gap: 1px;
+    img {
+      width: 17px;
+      height: 17px;
+      margin-right: 1px;
+    }
+    p {
+      padding-right: 10px;
+    }
   }
 }

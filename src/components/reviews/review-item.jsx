@@ -6,10 +6,10 @@ function ReviewItem() {
   return (
     <div className="review-item">
       <div className="user-info">
-        <div>
+        <div className="user-img">
           <img src={user} alt="user-img" />
         </div>
-        <div>
+        <div className="user-name">
           <strong>Kev Grant</strong>
           <p>April 2, 2023</p>
         </div>
