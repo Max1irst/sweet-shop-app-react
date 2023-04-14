@@ -1,9 +1,8 @@
 .review-item {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   background-color: #fff;
-  width: 344px;
+  width: 336px;
   height: 196px;
   border-radius: 20px;
   padding: 15px;
@@ -58,6 +57,7 @@
       height: 81.2px;
       font-size: 14px;
       padding-right: 10px;
+      overflow: auto;
     }
   }
 }
