@@ -1,17 +1,16 @@
 import './review-item.scss';
-import user from '../../images/user3.png';
 import star from '../../images/star.png';
 
-function ReviewItem() {
+function ReviewItem(props) {
   return (
     <div className="review-item">
       <div className="user-info">
         <div className="user-img">
-          <img src={user} alt="user-img" />
+          <img src={props.userImg} alt="user-img" />
         </div>
         <div className="user-name">
-          <strong>Kev Grant</strong>
-          <p>April 2, 2023</p>
+          <strong>{props.userName}</strong>
+          <p>{props.date}</p>
         </div>
       </div>
       <div className="review">
@@ -23,10 +22,7 @@ function ReviewItem() {
           <img src={star} alt="star" />
         </span>
         <div>
-          <p>
-            Ordered and delivered within 72 hours Brilliant service, will definitely be using them
-            again for some nostalgic sweets.
-          </p>
+          <p>{props.comment}</p>
         </div>
       </div>
     </div>

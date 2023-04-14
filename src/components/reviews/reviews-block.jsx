@@ -2,6 +2,7 @@ import './reviews-block.scss';
 import profileImg from '../../images/img-logo.jpg';
 import star from '../../images/star.png';
 import ReviewItem from './review-item';
+import user1 from '../../images/user3.png';
 function ReviewsBlock() {
   return (
     <div className="reviews-block">
@@ -30,7 +31,13 @@ function ReviewsBlock() {
         </div>
       </div>
       <div className="reviews-list">
-        <ReviewItem />
+        <ReviewItem
+          userImg={user1}
+          userName={'Katrin B'}
+          date="April 11 2023"
+          comment="Good product and fast delivery
+Good product and fast delivery, East to order and great choice.I will be ordering again."
+        />
       </div>
     </div>
   );
