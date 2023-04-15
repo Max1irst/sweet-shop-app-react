@@ -1,19 +1,23 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import './App.scss';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
-import Banner from './components/banner/banner';
-import ReviewsBlock from './components/reviews/reviews-block';
-import ProductsBlock from './components/products/products-block';
+import { Main } from './components/pages/main';
+import { Contacts } from './components/pages/contacts';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Banner />
-      <ProductsBlock />
-      <ReviewsBlock />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/contacts" element={<Contacts />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

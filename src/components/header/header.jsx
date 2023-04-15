@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import './header.scss';
 import logo from '../../images/logo.webp';
 import searchIcon from '../../images/search-icon.png';
@@ -18,7 +20,7 @@ function Header() {
           <img src={logo} alt="logo" />
         </a>
         <div className="menu">
-          <a href="./#">
+          <a href="./contacts">
             <img src={helpIcon} alt="help"></img>
             Help
           </a>
@@ -34,13 +36,41 @@ function Header() {
       </div>
       <div className="nav">
         <ul>
-          <li>Shop All Sweets</li>
-          <li>Shop By Brand</li>
-          <li>Sweets By Color</li>
-          <li>Sweets By Flavour</li>
-          <li>Sweets By Occasion</li>
-          <li>Shop Bicuits</li>
-          <li>Shop Crisps</li>
+          <li>
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Shop All Sweets
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Shop By Brand
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Sweets By Color
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Sweets By Flavour
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Sweets By Occasion
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Shop Bicuits
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Shop Crisps
+            </NavLink>
+          </li>
         </ul>
       </div>
     </div>
