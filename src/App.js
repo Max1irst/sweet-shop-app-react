@@ -18,7 +18,7 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/sweet-shop-app/main" element={<Main />} />
+          <Route path="/sweet-shop-app" element={<Main />} />
           <Route path="/sweet-shop-app/shop_all_sweets" element={<ShopAllSweets />} />
           <Route path="/sweet-shop-app/shop_biscuits" element={<ShopBiscuits />} />
           <Route path="/sweet-shop-app/shop_by_brand" element={<ShopByBrand />} />
