@@ -18,14 +18,14 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/main" element={<Main />} />
-          <Route path="/shop_all_sweets" element={<ShopAllSweets />} />
-          <Route path="/shop_biscuits" element={<ShopBiscuits />} />
-          <Route path="/shop_by_brand" element={<ShopByBrand />} />
-          <Route path="/shop_crisps" element={<ShopCrisps />} />
-          <Route path="/sweets_by_color" element={<SweetsByColor />} />
-          <Route path="/sweets_by_flavour" element={<SweetsByFlavour />} />
-          <Route path="/sweets_by_occasion" element={<SweetsByOccasion />} />
+          <Route path="/sweet-shop-app/main" element={<Main />} />
+          <Route path="/sweet-shop-app/shop_all_sweets" element={<ShopAllSweets />} />
+          <Route path="/sweet-shop-app/shop_biscuits" element={<ShopBiscuits />} />
+          <Route path="/sweet-shop-app/shop_by_brand" element={<ShopByBrand />} />
+          <Route path="/sweet-shop-app/shop_crisps" element={<ShopCrisps />} />
+          <Route path="/sweet-shop-app/sweets_by_color" element={<SweetsByColor />} />
+          <Route path="/sweet-shop-app/sweets_by_flavour" element={<SweetsByFlavour />} />
+          <Route path="/sweet-shop-app/sweets_by_occasion" element={<SweetsByOccasion />} />
         </Routes>
         <Footer />
       </div>
