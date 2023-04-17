@@ -16,58 +16,62 @@ function Header() {
             <img src={searchIcon} alt="search"></img>
           </button>
         </div>
-        <a href="./#">
+        <NavLink to="/main">
           <img src={logo} alt="logo" />
-        </a>
+        </NavLink>
         <div className="menu">
-          <a href="./contacts">
+          <NavLink to="./help">
             <img src={helpIcon} alt="help"></img>
             Help
-          </a>
-          <a href="./#">
+          </NavLink>
+          <NavLink to="./account">
             <img src={profileIcon} alt="help"></img>
             Account
-          </a>
-          <a href="./#">
+          </NavLink>
+          <NavLink to="./basket">
             <img src={basketIcon} alt="help"></img>
             Basket
-          </a>
+          </NavLink>
         </div>
       </div>
       <div className="nav">
         <ul>
           <li>
-            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
+            <NavLink to="/shop_all_sweets" className={({ isActive }) => (isActive ? 'active' : '')}>
               Shop All Sweets
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+            <NavLink to="/shop_by_brand" className={({ isActive }) => (isActive ? 'active' : '')}>
               Shop By Brand
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+            <NavLink to="/sweets_by_color" className={({ isActive }) => (isActive ? 'active' : '')}>
               Sweets By Color
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+            <NavLink
+              to="/sweets_by_flavour"
+              className={({ isActive }) => (isActive ? 'active' : '')}>
               Sweets By Flavour
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+            <NavLink
+              to="/sweets_by_occasion"
+              className={({ isActive }) => (isActive ? 'active' : '')}>
               Sweets By Occasion
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Shop Bicuits
+            <NavLink to="/shop_biscuits" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Shop Biscuits
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contacts" className={({ isActive }) => (isActive ? 'active' : '')}>
+            <NavLink to="/shop_crisps" className={({ isActive }) => (isActive ? 'active' : '')}>
               Shop Crisps
             </NavLink>
           </li>
