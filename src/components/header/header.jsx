@@ -16,7 +16,7 @@ function Header() {
             <img src={searchIcon} alt="search"></img>
           </button>
         </div>
-        <NavLink to="/main">
+        <NavLink to="/sweet-shop-app">
           <img src={logo} alt="logo" />
         </NavLink>
         <div className="menu">
