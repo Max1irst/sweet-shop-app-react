@@ -11,11 +11,13 @@ import { ShopCrisps } from './pages/shop_crisps';
 import { SweetsByColor } from './pages/sweets_by_color';
 import { SweetsByFlavour } from './pages/sweets_by_flavour';
 import { SweetsByOccasion } from './pages/sweets_by_occasion';
+import { GreenInfo } from './components/delivery/green-info';
 
 function App() {
   return (
     <Router>
       <div>
+        <GreenInfo />
         <Header />
         <Routes>
           <Route path="/sweet-shop-app" element={<Main />} />
@@ -27,6 +29,7 @@ function App() {
           <Route path="/sweets_by_flavour" element={<SweetsByFlavour />} />
           <Route path="/sweets_by_occasion" element={<SweetsByOccasion />} />
         </Routes>
+        <GreenInfo />
         <Footer />
       </div>
     </Router>

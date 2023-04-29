@@ -1,13 +1,15 @@
 import Banner from '../components/banner/banner';
-import ReviewsBlock from '../components/reviews/reviews-block';
+import { CategoriesBlock } from '../components/categories/categories-block';
 import ProductsBlock from '../components/products/products-block';
+import ReviewsBlock from '../components/reviews/reviews-block';
 
 export const Main = () => {
   return (
     <div>
       <Banner />
-      <ProductsBlock />
       <ReviewsBlock />
+      <CategoriesBlock />
+      <ProductsBlock />
     </div>
   );
 };
