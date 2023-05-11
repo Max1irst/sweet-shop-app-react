@@ -1,0 +1,22 @@
+[
+  {
+    "categoryLink": "/sweet-shop-app",
+    "categoryImg": "../../assets/images/sweets.jpg",
+    "categoryName": "Sweets"
+  },
+  {
+    "categoryLink": "/sweet-shop-app",
+    "categoryImg": "../../assets/images/biscuits.jpg",
+    "categoryName": "Biscuits"
+  },
+  {
+    "categoryLink": "/sweet-shop-app",
+    "categoryImg": "../../assets/images/drinks.jpg",
+    "categoryName": "Drinks"
+  },
+  {
+    "categoryLink": "/sweet-shop-app",
+    "categoryImg": "../../assets/images/crisps.webp",
+    "categoryName": "Crisps"
+  }
+]

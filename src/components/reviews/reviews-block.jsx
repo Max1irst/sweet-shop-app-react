@@ -32,12 +32,7 @@ function ReviewsBlock() {
       </div>
       <div className="reviews-list">
         {reviews.map((obj) => (
-          <ReviewItem
-            userImg={obj.userImg}
-            userName={obj.userName}
-            date={obj.date}
-            comment={obj.comment}
-          />
+          <ReviewItem {...obj} />
         ))}
       </div>
     </div>
