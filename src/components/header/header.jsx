@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom';
 
 import './header.scss';
-import logo from '../../images/logo.webp';
-import searchIcon from '../../images/search-icon.png';
-import helpIcon from '../../images/help-icon.png';
-import profileIcon from '../../images/profile-icon.png';
-import basketIcon from '../../images/basket-icon.png';
+import logo from '../../assets/images/logo.webp';
+import searchIcon from '../../assets/images/search-icon.png';
+import helpIcon from '../../assets/images/help-icon.png';
+import profileIcon from '../../assets/images/profile-icon.png';
+import basketIcon from '../../assets/images/basket-icon.png';
 function Header() {
   return (
     <div>

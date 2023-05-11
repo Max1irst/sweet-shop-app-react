@@ -1,5 +1,5 @@
 import './product-item.scss';
-import star from '../../images/star.png';
+import star from '../../assets/images/star.png';
 function ProductItem(props) {
   return (
     <div className="product-item">

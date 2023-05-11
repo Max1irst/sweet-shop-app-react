@@ -1,5 +1,5 @@
 import './red-info.scss';
-import sign from '../../images/sign.png';
+import sign from '../../assets/images/sign.png';
 
 export const RedInfo = () => {
   return (

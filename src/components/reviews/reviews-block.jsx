@@ -1,10 +1,8 @@
 import './reviews-block.scss';
-import profileImg from '../../images/img-logo.jpg';
-import star from '../../images/star.png';
+import profileImg from '../../assets/images/img-logo.jpg';
+import star from '../../assets/images/star.png';
 import ReviewItem from './review-item';
-import user1 from '../../images/user1.png';
-import user2 from '../../images/user2.png';
-import user3 from '../../images/user3.png';
+import reviews from '../../assets/data/reviews.json';
 function ReviewsBlock() {
   return (
     <div className="reviews-block">
@@ -33,24 +31,14 @@ function ReviewsBlock() {
         </div>
       </div>
       <div className="reviews-list">
-        <ReviewItem
-          userImg={user3}
-          userName={'Katrin B'}
-          date="April 11, 2023"
-          comment="Good product and fast delivery, East to order and great choice.I will be ordering again."
-        />
-        <ReviewItem
-          userImg={user2}
-          userName="Donna Reid"
-          date="April 9, 2023"
-          comment="Excellent choice of sweets and crisps, fast delivery, my girls love the range and can't wait for their next delivery, highly recommend, will definitely be ordering again."
-        />
-        <ReviewItem
-          userImg={user1}
-          userName="lorraine"
-          date="April 10, 2023"
-          comment="All the sweets are soooo lovely jubbly great price very fast delivery"
-        />
+        {reviews.map((obj) => (
+          <ReviewItem
+            userImg={obj.userImg}
+            userName={obj.userName}
+            date={obj.date}
+            comment={obj.comment}
+          />
+        ))}
       </div>
     </div>
   );

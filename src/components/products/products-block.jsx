@@ -1,6 +1,6 @@
 import './products-block.scss';
 import ProductItem from './product-item';
-import product1 from '../../images/product1.jpg';
+import product1 from '../../assets/images/product1.jpg';
 
 function ProductsBlock() {
   return (

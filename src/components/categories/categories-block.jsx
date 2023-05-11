@@ -1,8 +1,8 @@
 import { CategoryItem } from './category-item';
-import sweets from '../../images/sweets.jpg';
-import biscuits from '../../images/biscuits.jpg';
-import drinks from '../../images/drinks.jpg';
-import crisps from '../../images/crisps.webp';
+import sweets from '../../assets/images/sweets.jpg';
+import biscuits from '../../assets/images/biscuits.jpg';
+import drinks from '../../assets/images/drinks.jpg';
+import crisps from '../../assets/images/crisps.webp';
 import './categories.scss';
 
 export const CategoriesBlock = () => {
