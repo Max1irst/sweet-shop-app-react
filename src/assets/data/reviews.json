@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "userImg": "./images/user1.png",
+    "userImg": "https://cdn.trustindex.io/assets/default-avatar/noprofile-02.svg",
     "userName": "Katrin B",
     "comment": "Good product and fast delivery, East to order and great choice.I will be ordering again.",
     "date": "April 11, 2023",
@@ -9,7 +9,7 @@
   },
   {
     "id": 1,
-    "userImg": "./user2.png",
+    "userImg": "https://cdn.trustindex.io/assets/default-avatar/noprofile-09.svg",
     "userName": "Donna Reid",
     "comment": "Excellent choice of sweets and crisps, fast delivery, my girls love the range and can't wait for their next delivery, highly recommend, will definitely be ordering again.",
     "date": "April 9, 2023",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "userImg": "./user3.png",
+    "userImg": "https://cdn.trustindex.io/assets/default-avatar/noprofile-07.svg",
     "userName": "lorraine",
     "comment": "All the sweets are soooo lovely jubbly great price very fast delivery",
     "date": "April 10, 2023",

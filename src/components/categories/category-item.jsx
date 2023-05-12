@@ -1,6 +1,6 @@
 import './categories.scss';
 
-export const CategoryItem = (categoryLink, categoryImg, categoryName) => {
+function CategoryItem({ categoryLink, categoryImg, categoryName }) {
   return (
     <div className="category-item">
       <a href={categoryLink}>
@@ -11,4 +11,5 @@ export const CategoryItem = (categoryLink, categoryImg, categoryName) => {
       </a>
     </div>
   );
-};
+}
+export default CategoryItem;

@@ -1,32 +1,32 @@
 [
   {
-    "productImg": "./images/product1.jpg",
+    "productImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2019/01/harbio-rhubarb-and-custard-label-no-bag-300x300.jpg",
     "productName": "Jacks Milk Chocolate Mini Eggs 87g",
-    "productPrice": "0.89",
+    "productPrice": "1.00",
     "stars": 5,
     "reviews": "2",
     "inStock": "77"
   },
   {
-    "productImg": "./images/product1.jpg",
-    "productName": "Bonds Bunny Jelly Beans Tube 80g",
-    "productPrice": "1.00",
+    "productImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2023/05/jar-4-300x300.jpg",
+    "productName": "Jarnormous Pick n Mix Jar 2.5kg",
+    "productPrice": "20.00",
     "stars": 5,
-    "reviews": "2",
-    "inStock": "2"
+    "reviews": "0",
+    "inStock": "36"
   },
   {
-    "productImg": "./images/product1.jpg",
+    "productImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2020/08/dairy-milk-caramel-124-300x300.jpg",
     "productName": "Bonds Sherbet Carrots 8 Pack",
-    "productPrice": "0.75",
+    "productPrice": "1.25",
     "stars": 5,
     "reviews": "0",
     "inStock": "117"
   },
   {
-    "productImg": "./images/product1.jpg",
-    "productName": "Haribo Jelly Bunnies 160g",
-    "productPrice": "1.00",
+    "productImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2022/02/spinning-tops-no-bag-300x300.jpg",
+    "productName": "Spinning Tops 100g",
+    "productPrice": "3.00",
     "stars": 5,
     "reviews": "1",
     "inStock": "90"

@@ -1,22 +1,22 @@
 [
   {
     "categoryLink": "/sweet-shop-app",
-    "categoryImg": "../../assets/images/sweets.jpg",
+    "categoryImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2023/02/home-sweets-527x790.jpg",
     "categoryName": "Sweets"
   },
   {
     "categoryLink": "/sweet-shop-app",
-    "categoryImg": "../../assets/images/biscuits.jpg",
+    "categoryImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2023/02/home-biscuits-527x790.jpg",
     "categoryName": "Biscuits"
   },
   {
     "categoryLink": "/sweet-shop-app",
-    "categoryImg": "../../assets/images/drinks.jpg",
-    "categoryName": "Drinks"
+    "categoryImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2023/02/home-crisps-527x790.jpg",
+    "categoryName": "Crisps"
   },
   {
     "categoryLink": "/sweet-shop-app",
-    "categoryImg": "../../assets/images/crisps.webp",
-    "categoryName": "Crisps"
+    "categoryImg": "https://cdn-hlbap.nitrocdn.com/UhGNDuDkhyficUxxaYXBMUbMjLkgEMsd/assets/images/optimized/rev-ea1b9c4/wp-content/uploads/2023/02/home-drinks-527x790.jpg",
+    "categoryName": "Drinks"
   }
 ]
