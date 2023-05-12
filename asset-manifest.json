@@ -1,23 +1,18 @@
 {
   "files": {
     "main.css": "/sweet-shop-app/static/css/main.3d7b0568.css",
-    "main.js": "/sweet-shop-app/static/js/main.b6ea38cb.js",
+    "main.js": "/sweet-shop-app/static/js/main.ebe15dbb.js",
     "static/media/easter-background-yellow.jpg": "/sweet-shop-app/static/media/easter-background-yellow.72a1e7faf758f4b90e86.jpg",
-    "static/media/biscuits.jpg": "/sweet-shop-app/static/media/biscuits.8bf84f998905f431c1d8.jpg",
-    "static/media/sweets.jpg": "/sweet-shop-app/static/media/sweets.6fb7a1d31ef6782f65ef.jpg",
     "static/media/Metropolitano-Black.ttf": "/sweet-shop-app/static/media/Metropolitano-Black.b6dd7ad7da9370511e9e.ttf",
     "static/media/img-logo.jpg": "/sweet-shop-app/static/media/img-logo.7cf6a2a17d8b1227a0d1.jpg",
-    "static/media/drinks.jpg": "/sweet-shop-app/static/media/drinks.7a5defc520c97e670e0d.jpg",
-    "static/media/crisps.webp": "/sweet-shop-app/static/media/crisps.f5bd7da1cf4bb5beaf61.webp",
     "static/media/logo-footer.png": "/sweet-shop-app/static/media/logo-footer.d54142a5a963c358504a.png",
-    "static/media/product1.jpg": "/sweet-shop-app/static/media/product1.47a217dafbcf2a896e59.jpg",
     "static/media/logo.webp": "/sweet-shop-app/static/media/logo.44dbc3546d32b221511f.webp",
     "index.html": "/sweet-shop-app/index.html",
     "main.3d7b0568.css.map": "/sweet-shop-app/static/css/main.3d7b0568.css.map",
-    "main.b6ea38cb.js.map": "/sweet-shop-app/static/js/main.b6ea38cb.js.map"
+    "main.ebe15dbb.js.map": "/sweet-shop-app/static/js/main.ebe15dbb.js.map"
   },
   "entrypoints": [
     "static/css/main.3d7b0568.css",
-    "static/js/main.b6ea38cb.js"
+    "static/js/main.ebe15dbb.js"
   ]
 }
