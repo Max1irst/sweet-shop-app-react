@@ -6,7 +6,7 @@ function CategoriesBlock() {
   return (
     <div className="categories-block">
       {categories.map((obj) => (
-        <CategoryItem {...obj} />
+        <CategoryItem key={obj.categoryImg} {...obj} />
       ))}
     </div>
   );
