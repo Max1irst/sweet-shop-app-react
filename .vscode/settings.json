@@ -9,5 +9,11 @@
   "prettier.semi": true,
   "prettier.printWidth": 100,
   "prettier.bracketSameLine": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  }
 }

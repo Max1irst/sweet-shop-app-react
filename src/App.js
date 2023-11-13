@@ -12,6 +12,7 @@ import { SweetsByColor } from './pages/sweets_by_color';
 import { SweetsByFlavour } from './pages/sweets_by_flavour';
 import { SweetsByOccasion } from './pages/sweets_by_occasion';
 import { GreenInfo } from './components/delivery/green-info';
+import { NotFoundPage } from './pages/notFound';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/sweets_by_color" element={<SweetsByColor />} />
           <Route path="/sweets_by_flavour" element={<SweetsByFlavour />} />
           <Route path="/sweets_by_occasion" element={<SweetsByOccasion />} />
+          <Route path="/*" element={<NotFoundPage />} />
         </Routes>
         <GreenInfo />
         <Footer />
