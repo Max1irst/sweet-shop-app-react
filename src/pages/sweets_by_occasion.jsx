@@ -6,7 +6,7 @@ import ReviewsBlock from '../components/reviews/reviews-block';
 export const SweetsByOccasion = () => {
   return (
     <div>
-      <TitleBlock title="Sweets by Occasion" />
+      <TitleBlock title="Sweets By Occasion" />
       <RedInfo />
       <SortProducts />
       <ReviewsBlock />
