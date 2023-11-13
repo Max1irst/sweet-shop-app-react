@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sweet-shop-app/static/css/main.82f1d2b8.css",
-    "main.js": "/sweet-shop-app/static/js/main.0fcd5404.js",
-    "static/media/easter-background-yellow.jpg": "/sweet-shop-app/static/media/easter-background-yellow.72a1e7faf758f4b90e86.jpg",
-    "static/media/Metropolitano-Black.ttf": "/sweet-shop-app/static/media/Metropolitano-Black.b6dd7ad7da9370511e9e.ttf",
-    "static/media/img-logo.jpg": "/sweet-shop-app/static/media/img-logo.7cf6a2a17d8b1227a0d1.jpg",
-    "static/media/logo-footer.png": "/sweet-shop-app/static/media/logo-footer.d54142a5a963c358504a.png",
-    "static/media/logo.webp": "/sweet-shop-app/static/media/logo.44dbc3546d32b221511f.webp",
-    "index.html": "/sweet-shop-app/index.html",
-    "main.82f1d2b8.css.map": "/sweet-shop-app/static/css/main.82f1d2b8.css.map",
-    "main.0fcd5404.js.map": "/sweet-shop-app/static/js/main.0fcd5404.js.map"
+    "main.css": "/sweet-shop-app-react/static/css/main.68f01693.css",
+    "main.js": "/sweet-shop-app-react/static/js/main.1f7dd24a.js",
+    "static/media/easter-background-yellow.jpg": "/sweet-shop-app-react/static/media/easter-background-yellow.72a1e7faf758f4b90e86.jpg",
+    "static/media/Metropolitano-Black.ttf": "/sweet-shop-app-react/static/media/Metropolitano-Black.b6dd7ad7da9370511e9e.ttf",
+    "static/media/img-logo.jpg": "/sweet-shop-app-react/static/media/img-logo.7cf6a2a17d8b1227a0d1.jpg",
+    "static/media/logo-footer.png": "/sweet-shop-app-react/static/media/logo-footer.d54142a5a963c358504a.png",
+    "static/media/logo.webp": "/sweet-shop-app-react/static/media/logo.44dbc3546d32b221511f.webp",
+    "index.html": "/sweet-shop-app-react/index.html",
+    "main.68f01693.css.map": "/sweet-shop-app-react/static/css/main.68f01693.css.map",
+    "main.1f7dd24a.js.map": "/sweet-shop-app-react/static/js/main.1f7dd24a.js.map"
   },
   "entrypoints": [
-    "static/css/main.82f1d2b8.css",
-    "static/js/main.0fcd5404.js"
+    "static/css/main.68f01693.css",
+    "static/js/main.1f7dd24a.js"
   ]
 }
