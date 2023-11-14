@@ -1,0 +1,21 @@
+.red-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30%;
+  margin: 0 auto;
+  width: 92%;
+  height: 48px;
+  border-radius: 12px;
+  margin-top: 10px;
+  background: #f9dddd;
+  font-weight: bold;
+  span {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    color: #515151;
+  }
+  img {
+    opacity: 0.7;
+  }
+}
