@@ -1,0 +1,66 @@
+[
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2019/02/refreshers-300x300.jpg",
+     "productName": "Jacks Milk Chocolate Mini Eggs 87g",
+     "productPrice": "1.00",
+     "stars": 5,
+     "reviews": "2",
+     "inStock": "77"
+    },
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2020/07/highland-toffee-1-300x300.jpg",
+     "productName": "Jarnormous Pick n Mix Jar 2.5kg",
+     "productPrice": "11.25",
+     "stars": 5,
+     "reviews": "0",
+     "inStock": "36"
+    },
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2022/12/jacks-pink-wafers-2-300x300.jpg",
+     "productName": "Bonds Sherbet Carrots 8 Pack",
+     "productPrice": "75",
+     "stars": 5,
+     "reviews": "0",
+     "inStock": "117"
+    },
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2022/11/milkybar-300x300.jpg",
+     "productName": "Spinning Tops 100g",
+     "productPrice": "17.15",
+     "stars": 5,
+     "reviews": "1",
+     "inStock": "90"
+    },
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2020/01/love-heart-dips-300x300.jpg",
+     "productName": "Spinning Tops 100g",
+     "productPrice": "1.15",
+     "stars": 5,
+     "reviews": "1",
+     "inStock": "90"
+    },
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2019/06/flumps-2-300x300.jpg",
+     "productName": "Spinning Tops 100g",
+     "productPrice": "3.15",
+     "stars": 5,
+     "reviews": "1",
+     "inStock": "90"
+    },
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2023/08/vidal-tongue-painter-lollipop-300x300.jpg",
+     "productName": "Spinning Tops 100g",
+     "productPrice": "9.15",
+     "stars": 5,
+     "reviews": "1",
+     "inStock": "90"
+    },
+    {
+     "productImg": "https://onepoundsweets.com/wp-content/uploads/2019/02/popping-candy-single-noprice-300x300.jpg",
+     "productName": "Spinning Tops 100g",
+     "productPrice": "12",
+     "stars": 5,
+     "reviews": "1",
+     "inStock": "90"
+    }
+   ]

@@ -2,19 +2,10 @@ import React from 'react';
 import './reviews-block.scss';
 import profileImg from '../../assets/images/img-logo.jpg';
 import star from '../../assets/images/star.png';
+import reviewers from '../../assets/data/reviewers.json'
 import ReviewItem from './review-item';
 
 function ReviewsBlock() {
-  const [items, setItems] = React.useState([]);
-  React.useEffect(() => {
-    fetch('https://6465e4429c09d77a62f6e60b.mockapi.io/items')
-      .then((res) => {
-        return res.json();
-      })
-      .then((arr) => {
-        setItems(arr);
-      });
-  }, []);
   return (
     <div className="reviews-block">
       <div className="profile-block">
@@ -42,7 +33,7 @@ function ReviewsBlock() {
         </div>
       </div>
       <div className="reviews-list">
-        {items.map((obj) => (
+        {reviewers.map((obj) => (
           <ReviewItem key={obj.id} {...obj} />
         ))}
       </div>
