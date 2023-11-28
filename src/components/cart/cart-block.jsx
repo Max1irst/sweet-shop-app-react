@@ -7,7 +7,9 @@ export const CartBlock = () => {
     const cart = useSelector((state) => state.cart)
     return (
         <div className="cart-block">
-            <h2>Shopping Cart</h2>
+            <div className='title'>
+                <h2>Shopping Cart</h2>
+            </div>
             {cart.cartItems.length === 0 ? (
                 <div>Cart is empty</div>
             ) :

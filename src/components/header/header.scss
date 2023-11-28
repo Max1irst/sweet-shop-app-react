@@ -47,6 +47,7 @@
     justify-content: space-evenly;
     width: 33.3%;
     a {
+      position: relative;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -55,6 +56,19 @@
       color: #111;
       font-size: 14px;
       font-weight: 700;
+    }
+    .counter {
+      background: #dff400;
+      border-radius: 50%;
+      color: #080808;
+      font-size: 12px;
+      height: 20px;
+      bottom: 12px;
+      left: 7px;
+      line-height: 20px;
+      position: absolute;
+      text-align: center;
+      width: 20px;
     }
   }
 }
@@ -76,7 +90,7 @@
       padding: 22px 0px;
       transform: scaleX(1);
       display: inline-block;
-      font-family: 'gambado-sans', sans-serif;
+      font-family: "gambado-sans", sans-serif;
       color: #fff;
       font-size: 14px;
       font-weight: 900;

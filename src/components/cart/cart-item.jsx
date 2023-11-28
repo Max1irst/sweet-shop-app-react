@@ -4,11 +4,9 @@ export const CartItem = (props) => {
     return (
         <div className="cartItem">
             <div>
-                <div>
-                    <img src={props.productImg} alt="img" />
-                    <p>{props.productName}</p>
-                    <button>Remove</button>
-                </div>
+                <img src={props.productImg} alt="img" />
+                <p>{props.productName}</p>
+                <button>Remove</button>
             </div>
             <div>$ {props.productPrice}</div>
             <div>

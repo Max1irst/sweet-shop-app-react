@@ -29,7 +29,8 @@ function Header() {
             Account
           </NavLink>
           <NavLink to="/cart">
-            <img src={basketIcon} alt="help"></img>
+            <img src={basketIcon} alt="help" />
+            <span className='counter'></span>
             Basket
           </NavLink>
         </div>

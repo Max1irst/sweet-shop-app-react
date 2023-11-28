@@ -1,17 +1,25 @@
 .cart-block {
-    width: 100%;
+    background: #fff;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    box-shadow: 0px 2px 4px #d7d7d7;
+    max-width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    h2 {
+    margin: 50px auto;
+
+    .title {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+        background: #007db5;
         font-family: "Metropolitano";
-        padding: 5px 2%;
-        font-size: 40px;
+        font-size: 22px;
         line-height: 1;
-        font-weight: 700;
-        font-style: normal;
-        color: #111;
     }
     .cart {
         width: 100%;
@@ -31,6 +39,7 @@
                 width: 100%;
                 display: flex;
                 p {
+                    text-align: center;
                     width: 25%;
                 }
             }
@@ -55,6 +64,9 @@
     justify-content: center;
     align-items: center;
     div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 25%;
     }
 }
