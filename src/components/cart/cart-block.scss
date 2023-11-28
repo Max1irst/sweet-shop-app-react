@@ -1,0 +1,60 @@
+.cart-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        font-family: "Metropolitano";
+        padding: 5px 2%;
+        font-size: 40px;
+        line-height: 1;
+        font-weight: 700;
+        font-style: normal;
+        color: #111;
+    }
+    .cart {
+        width: 100%;
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .fullCart {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            .titles {
+                width: 100%;
+                display: flex;
+                p {
+                    width: 25%;
+                }
+            }
+        }
+        .product-list {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .cart-summary {
+            width: 100%;
+            padding: 50px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+.cartItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+        width: 25%;
+    }
+}

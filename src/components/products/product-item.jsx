@@ -1,6 +1,16 @@
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom'
 import './product-item.scss';
 import star from '../../assets/images/star.png';
+import { addToCart } from '../../features/cartSlice';
+
 function ProductItem(props) {
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+  const handleAddToCart = (product) => {
+    dispatch(addToCart(product))
+    navigate('/cart')
+  }
   return (
     <div className="product-item">
       <a href="./#">
@@ -17,9 +27,9 @@ function ProductItem(props) {
         <br />
         <span>({props.reviews} reviews)</span>
       </div>
-      <a href="./#" className="product-btn">
+      <button onClick={() => { handleAddToCart(props) }} className="product-btn">
         Add to basket
-      </a>
+      </button>
       <p>{props.inStock} in stock</p>
     </div>
   );

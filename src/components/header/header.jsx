@@ -28,7 +28,7 @@ function Header() {
             <img src={profileIcon} alt="help"></img>
             Account
           </NavLink>
-          <NavLink to="./basket">
+          <NavLink to="/cart">
             <img src={basketIcon} alt="help"></img>
             Basket
           </NavLink>
