@@ -3,6 +3,27 @@
     font-weight: 700;
 }
 
+.emptyCart {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    h3 {
+        font-size: 36px;
+    }
+    span {
+        color: #007db5;
+        transition: all ease-in-out 0.3s;
+    }
+    :hover {
+        color: #515151;
+    }
+    svg {
+        padding-top: 5px;
+    }
+}
+
 .cart-block {
     background: #fff;
     padding: 0px;

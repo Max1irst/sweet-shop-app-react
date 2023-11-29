@@ -59,9 +59,16 @@ const cartSlice = createSlice({
                 })
             }
             localStorage.setItem('cartItems', JSON.stringify(state.cartItems))
+        },
+        clearCart(state, action) {
+            state.cartItems = []
+            toast.info(`Card is cleared`, {
+                position: 'top-right'
+            })
+            localStorage.setItem('cartItems', JSON.stringify(state.cartItems))
         }
     }
 })
 
-export const { addToCart, removeFromCart, decreaseCartItem, increaseCartItem } = cartSlice.actions
+export const { addToCart, removeFromCart, decreaseCartItem, increaseCartItem, clearCart } = cartSlice.actions
 export default cartSlice.reducer
