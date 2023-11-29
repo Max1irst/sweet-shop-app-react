@@ -1,15 +1,12 @@
 import { useDispatch } from 'react-redux';
-import { useNavigate } from 'react-router-dom'
 import './product-item.scss';
 import star from '../../assets/images/star.png';
 import { addToCart } from '../../features/cartSlice';
 
 function ProductItem(props) {
   const dispatch = useDispatch()
-  const navigate = useNavigate()
   const handleAddToCart = (product) => {
     dispatch(addToCart(product))
-    navigate('/cart')
   }
   return (
     <div className="product-item">

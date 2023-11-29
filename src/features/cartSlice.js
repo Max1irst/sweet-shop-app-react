@@ -26,9 +26,42 @@ const cartSlice = createSlice({
                 })
             }
             localStorage.setItem('cartItems', JSON.stringify(state.cartItems))
+        },
+        removeFromCart(state, action) {
+            const newSetOfItems = state.cartItems.filter((item) => item.id !== action.payload.id)
+            state.cartItems = newSetOfItems
+            localStorage.setItem('cartItems', JSON.stringify(state.cartItems))
+            toast.error(`${action.payload.productName} removed from Cart`, {
+                position: 'top-right'
+            })
+        },
+        decreaseCartItem(state, action) {
+            const itemIndex = state.cartItems.findIndex((item) => item.id === action.payload.id)
+            if (state.cartItems[itemIndex].cartQuantity > 1) {
+                state.cartItems[itemIndex].cartQuantity -= 1
+            } else if (state.cartItems[itemIndex].cartQuantity === 1) {
+                const newSetOfItems = state.cartItems.filter((item) => item.id !== action.payload.id)
+                state.cartItems = newSetOfItems
+                toast.error(`${action.payload.productName} removed from Cart`, {
+                    position: 'top-right'
+                })
+            }
+            localStorage.setItem('cartItems', JSON.stringify(state.cartItems))
+        },
+        increaseCartItem(state, action) {
+            const itemIndex = state.cartItems.findIndex((item) => item.id === action.payload.id)
+            if (state.cartItems[itemIndex].cartQuantity < 10) {
+                state.cartItems[itemIndex].cartQuantity += 1
+            } else if (state.cartItems[itemIndex].cartQuantity >= 10) {
+                state.cartItems[itemIndex].cartQuantity += 1
+                toast.info(`Вижу у нас тут сладкоежка`, {
+                    position: 'top-right'
+                })
+            }
+            localStorage.setItem('cartItems', JSON.stringify(state.cartItems))
         }
     }
 })
 
-export const { addToCart } = cartSlice.actions
+export const { addToCart, removeFromCart, decreaseCartItem, increaseCartItem } = cartSlice.actions
 export default cartSlice.reducer
