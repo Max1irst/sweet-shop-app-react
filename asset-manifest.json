@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sweet-shop-app-react/static/css/main.dc1aa980.css",
-    "main.js": "/sweet-shop-app-react/static/js/main.28b29e1b.js",
+    "main.js": "/sweet-shop-app-react/static/js/main.99953af3.js",
     "static/media/easter-background-yellow.jpg": "/sweet-shop-app-react/static/media/easter-background-yellow.72a1e7faf758f4b90e86.jpg",
     "static/media/Metropolitano-Black.ttf": "/sweet-shop-app-react/static/media/Metropolitano-Black.b6dd7ad7da9370511e9e.ttf",
     "static/media/img-logo.jpg": "/sweet-shop-app-react/static/media/img-logo.7cf6a2a17d8b1227a0d1.jpg",
@@ -9,10 +9,10 @@
     "static/media/logo.webp": "/sweet-shop-app-react/static/media/logo.44dbc3546d32b221511f.webp",
     "index.html": "/sweet-shop-app-react/index.html",
     "main.dc1aa980.css.map": "/sweet-shop-app-react/static/css/main.dc1aa980.css.map",
-    "main.28b29e1b.js.map": "/sweet-shop-app-react/static/js/main.28b29e1b.js.map"
+    "main.99953af3.js.map": "/sweet-shop-app-react/static/js/main.99953af3.js.map"
   },
   "entrypoints": [
     "static/css/main.dc1aa980.css",
-    "static/js/main.28b29e1b.js"
+    "static/js/main.99953af3.js"
   ]
 }
