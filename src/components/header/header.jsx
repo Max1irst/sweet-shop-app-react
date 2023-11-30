@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-
+import { useSelector } from 'react-redux/es/hooks/useSelector';
 import './header.scss';
 import logo from '../../assets/images/logo.webp';
 import searchIcon from '../../assets/images/search-icon.png';
@@ -7,6 +7,7 @@ import helpIcon from '../../assets/images/help-icon.png';
 import profileIcon from '../../assets/images/profile-icon.png';
 import basketIcon from '../../assets/images/basket-icon.png';
 function Header() {
+  const { cartTotalQuantity } = useSelector(state => state.cart)
   return (
     <div>
       <div className="header">
@@ -30,7 +31,7 @@ function Header() {
           </NavLink>
           <NavLink to="/cart">
             <img src={basketIcon} alt="help" />
-            <span className='counter'></span>
+            <span className='counter'>{cartTotalQuantity}</span>
             Basket
           </NavLink>
         </div>

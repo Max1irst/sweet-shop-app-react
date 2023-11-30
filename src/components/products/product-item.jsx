@@ -1,12 +1,13 @@
 import { useDispatch } from 'react-redux';
 import './product-item.scss';
 import star from '../../assets/images/star.png';
-import { addToCart } from '../../features/cartSlice';
+import { addToCart, getTotals } from '../../features/cartSlice';
 
 function ProductItem(props) {
   const dispatch = useDispatch()
   const handleAddToCart = (product) => {
     dispatch(addToCart(product))
+    dispatch(getTotals())
   }
   return (
     <div className="product-item">

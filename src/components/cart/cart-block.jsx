@@ -1,16 +1,21 @@
 import { useSelector } from 'react-redux/es/hooks/useSelector'
 import { NavLink } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
+import { useEffect } from 'react'
 import './cart-block.scss'
-import { clearCart } from '../../features/cartSlice'
+import { clearCart, getTotals } from '../../features/cartSlice'
 import { CartItem } from './cart-item'
 
 export const CartBlock = () => {
     const cart = useSelector((state) => state.cart)
     const dispatch = useDispatch()
+
     const handleClearCard = () => {
         dispatch(clearCart())
     }
+    useEffect(() => {
+        dispatch(getTotals())
+    }, [cart, dispatch])
     return (
         <div className="cart-block">
             <div className='title'>
@@ -51,8 +56,8 @@ export const CartBlock = () => {
                         </button>
                         <div className="check-out">
                             <div className="sub-total">
-                                <span>Subtotal</span>
-                                <span>  $ {cart.cartTotalAmount}</span>
+                                <p>Subtotal</p>
+                                <p>$ {cart.cartTotalAmount}</p>
                             </div>
                             <p>Lorem ipsum dolor sit amet</p>
                             <button>Check Out</button>
