@@ -1,8 +1,11 @@
 .products-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
   width: 100%;
   height: auto;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 60px;
   h3 {
     line-height: 1;

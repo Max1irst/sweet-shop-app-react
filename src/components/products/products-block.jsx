@@ -10,7 +10,6 @@ function ProductsBlock() {
         : (
           <>{
             <div className="products-block">
-              <h3>Shop Easter Sweets</h3>
               <div className="products-list">
                 {data?.map(product => (
                   <ProductItem key={product.productImg} {...product} />

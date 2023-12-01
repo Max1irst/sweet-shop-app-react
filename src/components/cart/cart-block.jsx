@@ -57,7 +57,7 @@ export const CartBlock = () => {
                         <div className="check-out">
                             <div className="sub-total">
                                 <p>Subtotal</p>
-                                <p>$ {cart.cartTotalAmount}</p>
+                                <p>$ {Math.floor(cart.cartTotalAmount)}</p>
                             </div>
                             <p>Lorem ipsum dolor sit amet</p>
                             <button>Check Out</button>
