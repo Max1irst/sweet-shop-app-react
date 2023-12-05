@@ -21,16 +21,16 @@ function Header() {
           <img src={logo} alt="logo" />
         </NavLink>
         <div className="menu">
-          <NavLink to="./help">
-            <img src={helpIcon} alt="help"></img>
+          <NavLink to="/help">
+            <img id='getHelp' src={helpIcon} alt="help"></img>
             Help
           </NavLink>
-          <NavLink to="./account">
-            <img src={profileIcon} alt="help"></img>
+          <NavLink to="/account">
+            <img id='account' src={profileIcon} alt="account"></img>
             Account
           </NavLink>
           <NavLink to="/cart">
-            <img src={basketIcon} alt="help" />
+            <img id='cart' src={basketIcon} alt="cart" />
             <span className='counter'>{cartTotalQuantity}</span>
             Basket
           </NavLink>
