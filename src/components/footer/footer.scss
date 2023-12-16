@@ -23,7 +23,7 @@
     font-weight: normal;
   }
   h3 {
-    font-family: 'Metropolitano';
+    font-family: "Metropolitano";
     margin-bottom: 20px;
     color: #fff;
     font-size: 28px;
@@ -60,5 +60,11 @@
 
   a {
     color: #fff;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .footer {
+    display: none;
   }
 }

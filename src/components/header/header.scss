@@ -5,9 +5,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 104px;
   width: 100%;
+
   .search {
     width: 33.3%;
     display: flex;
@@ -44,7 +45,7 @@
   .menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     width: 33.3%;
     a {
       position: relative;
@@ -73,6 +74,11 @@
   }
 }
 .nav {
+  .nav-btn {
+    width: 40px;
+    height: 40px;
+    visibility: hidden;
+  }
   background-color: #f4768a;
   height: 60px;
   ul {
@@ -112,4 +118,33 @@
 }
 .active {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 770px) {
+  .menu p {
+    display: none;
+  }
+  .logo {
+    height: 50px;
+  }
+  .toggleHeight {
+    height: auto;
+    transition: 2s;
+  }
+  .nav-btn {
+    width: 33%;
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav {
+    .responsive-nav {
+      transform: none;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      transition: 1s;
+      transform: translateY(-100vh);
+    }
+  }
 }

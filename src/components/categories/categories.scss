@@ -36,3 +36,16 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+@media only screen and (max-width: 770px) {
+  .categories-block {
+    flex-direction: column;
+    justify-content: center;
+    .category-item {
+      width: auto;
+      .category-btn {
+        width: auto;
+      }
+    }
+  }
+}
