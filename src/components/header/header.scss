@@ -73,12 +73,19 @@
     }
   }
 }
-.nav {
-  .nav-btn {
-    width: 40px;
-    height: 40px;
-    visibility: hidden;
+.nav-btn {
+  visibility: hidden;
+  button {
+    background: none;
+    border: none;
+    svg {
+      color: #f4768a;
+      height: 20px;
+      width: 20px;
+    }
   }
+}
+.nav {
   background-color: #f4768a;
   height: 60px;
   ul {

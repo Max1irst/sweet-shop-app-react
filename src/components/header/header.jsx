@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { FaEquals } from "react-icons/fa6";
 import { useRef } from 'react';
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 import './header.scss';
@@ -17,7 +18,7 @@ function Header() {
     <div>
       <div className="header">
         <div className='nav-btn'>
-          <button onClick={() => huddleNavbar()}><i className="bi bi-list bi-success"></i></button>
+          <button onClick={() => huddleNavbar()}><FaEquals /></button>
         </div>
         <NavLink to="/sweet-shop-app">
           <img className='logo' src={logo} alt="logo" />
